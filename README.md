@@ -1,4 +1,4 @@
-# Programa de Codificação de Strings
+# Encode string and Files
 
 Este programa em Python permite codificar strings em diferentes formatos como URL encode, Base64, Hexadecimal, HTML Entity, Quoted-Printable, Punycode, MIME, e Unicode.
 
