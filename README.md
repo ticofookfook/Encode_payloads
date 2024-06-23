@@ -10,7 +10,7 @@ Este programa em Python permite codificar strings e arquivos em diferentes forma
 
 1. Clone o repositório:</br>
    ```bash</br>
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/ticofookfook/Encode_payloads.git
 
 2. Navegue para o diretório do projeto:</br>
     cd seu-repositorio</br>
