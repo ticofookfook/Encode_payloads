@@ -10,7 +10,7 @@ Este programa em Python permite codificar strings e arquivos em diferentes forma
 
 1. Clone o repositório:</br>
    ```bash</br>
-   git clone https://github.com/seu-usuario/seu-repositorio.git</br>
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2. Navegue para o diretório do projeto:</br>
     cd seu-repositorio</br>
@@ -18,6 +18,9 @@ Este programa em Python permite codificar strings e arquivos em diferentes forma
 3. Instale os requeriments</br>
     pip3 install -r requirements.txt</br>
 
+## OBS
+
+Url encode tem a opção -n que por padrão vem 1 que é o numero de vezes que ele vai encodar, pode passar quantas quiser</br>
 
 Uso
 Você pode usar o programa de várias maneiras, conforme descrito abaixo:</br>
