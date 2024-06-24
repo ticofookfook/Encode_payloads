@@ -13,7 +13,7 @@ Este programa em Python permite codificar strings e arquivos em diferentes forma
    git clone https://github.com/ticofookfook/Encode_payloads.git
 
 2. Navegue para o diretório do projeto:</br>
-    cd seu-repositorio</br>
+    cd Encode_payloads</br>
 
 3. Instale os requeriments</br>
     pip3 install -r requirements.txt</br>
